@@ -1,0 +1,41 @@
+[
+{
+    "title": "Start Node",
+    "fullText": "Placeholder text",
+    "id": 0,
+    "position": {
+        "x": 200.0,
+        "y": 200.0
+    },
+    "isStarting": true,
+    "isDeletable": false,
+    "connectedNodes": []
+},
+{
+    "title": "New Node",
+    "fullText": "Placeholder text",
+    "id": 1,
+    "position": {
+        "x": 558.0,
+        "y": 331.0
+    },
+    "isStarting": false,
+    "isDeletable": true,
+    "connectedNodes": [
+        0,
+        2
+    ]
+},
+{
+    "title": "New Node",
+    "fullText": "Placeholder textggggggggggggggggggggggggggggggggggggggg",
+    "id": 2,
+    "position": {
+        "x": 214.0,
+        "y": 402.0
+    },
+    "isStarting": false,
+    "isDeletable": true,
+    "connectedNodes": []
+}
+]

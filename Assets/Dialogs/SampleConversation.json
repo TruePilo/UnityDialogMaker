@@ -1,0 +1,71 @@
+[
+{
+    "title": "Start Node",
+    "fullText": "Dobrý den.",
+    "id": 0,
+    "position": {
+        "x": 214.0,
+        "y": 314.0
+    },
+    "isStarting": true,
+    "isDeletable": false,
+    "connectedNodes": []
+},
+{
+    "title": "Přivítání",
+    "fullText": "Dobrý den, jak vám mohu pomoci?",
+    "id": 1,
+    "position": {
+        "x": 492.0,
+        "y": 322.0
+    },
+    "isStarting": false,
+    "isDeletable": true,
+    "connectedNodes": [
+        0
+    ]
+},
+{
+    "title": "Jídlo",
+    "fullText": "Hledám něco k jídlu.",
+    "id": 2,
+    "position": {
+        "x": 735.0,
+        "y": 208.0
+    },
+    "isStarting": false,
+    "isDeletable": true,
+    "connectedNodes": [
+        1
+    ]
+},
+{
+    "title": "Spánek",
+    "fullText": "Hledám místo na spaní.",
+    "id": 3,
+    "position": {
+        "x": 738.0,
+        "y": 449.0
+    },
+    "isStarting": false,
+    "isDeletable": true,
+    "connectedNodes": [
+        1
+    ]
+},
+{
+    "title": "Konec",
+    "fullText": "Tak to bohužel nemohu sloužit, nashledanou.",
+    "id": 4,
+    "position": {
+        "x": 997.0,
+        "y": 327.0
+    },
+    "isStarting": false,
+    "isDeletable": true,
+    "connectedNodes": [
+        3,
+        2
+    ]
+}
+]
